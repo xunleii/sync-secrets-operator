@@ -12,6 +12,7 @@ e2e_deploy: KUBERNETES_VERSION-isdef
 	docker build -t e2e/sync-secrets-controller $(CURRENT_DIR)/..
 	kind load docker-image e2e/sync-secrets-controller --name e2e-kube-$(KUBERNETES_VERSION)
 	kubectl create -f $(CURRENT_DIR)/e2e_controller.yaml
+	kubectl wait --timeout -1s --for condition=Ready --namespace default --all pod
 
 .PHONY: e2e_test
 e2e_test:

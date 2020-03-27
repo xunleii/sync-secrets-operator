@@ -12,6 +12,8 @@ That is why this operator exists. However, I do not recommend to use it for anyt
 here for a good reasons.
 
 ## Features
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fxunleii%2Fsync-secrets-operator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fxunleii%2Fsync-secrets-operator?ref=badge_shield)
+
 
 ## Example
 
@@ -19,3 +21,6 @@ here for a good reasons.
 
 ## License
 
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fxunleii%2Fsync-secrets-operator.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fxunleii%2Fsync-secrets-operator?ref=badge_large)
